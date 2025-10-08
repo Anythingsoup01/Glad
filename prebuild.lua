@@ -1,15 +1,17 @@
-project "Glad"
-	kind "StaticLib"
-	language "C"
+Project =
+{   name = "Glad",
+	kind = "StaticLib",
+	language = "C",
 
-	files
+	files =
 	{
 		"include/glad/glad.h",
 		"include/KHR/khrplatform.h",
 		"src/glad.c",
-	}
+	},
 
-	includedirs
+	includedirs =
 	{
 		"include"
 	}
+}

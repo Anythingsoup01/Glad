@@ -4,7 +4,7 @@ set(SRCS
     "src/glad.c"
 )
 add_library(Glad STATIC ${SRCS})
-set_property(TARGET Glad PROPERTY C_STANDARD )
+set_property(TARGET Glad PROPERTY C_STANDARD 17)
 
 target_include_directories(Glad PRIVATE
     "include"

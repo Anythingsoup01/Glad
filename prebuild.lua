@@ -1,8 +1,8 @@
 Project = {
-  name = "Glad",
+	name = "Glad",
 	kind = "StaticLib",
 	language = "C",
-  dialect = "17",
+	dialect = "17",
 
 	files = {
 		"include/glad/glad.h",
@@ -10,8 +10,7 @@ Project = {
 		"src/glad.c",
 	},
 
-	includedirs =
-	{
-		"include"
-	}
+	includedirs = {
+		"include",
+	},
 }

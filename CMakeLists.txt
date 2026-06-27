@@ -1,4 +1,4 @@
-add_library(Glad)
+add_library(Glad STATIC)
 
 set_property(TARGET Glad PROPERTY C_STANDARD 17)
 target_sources(Glad PRIVATE
